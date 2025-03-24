@@ -24,9 +24,9 @@ class ExceptionWrappingExecutor implements SoapApiExecutor
     }
 
     /**
-     * @inheritdoc
+     * @inheritDoc
      */
-    public function executeSoapFunction($soapFunction, $input = null, array $options = [], array $headers = [])
+    public function executeSoapFunction($soapFunction, $input = null, array $options = [], array $headers = []): mixed
     {
         try {
             return $this->innerExecutor->executeSoapFunction($soapFunction, $input);
