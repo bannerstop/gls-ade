@@ -1,12 +1,12 @@
 <?php
 
-namespace Webit\GlsAde\Model;
+namespace Bannerstop\GlsAde\Model;
 
 use JMS\Serializer\Annotation as JMS;
 
 /**
  * Class MaxParcelWeight
- * @package Webit\GlsAde\Model
+ * @package Bannerstop\GlsAde\Model
  */
 class MaxParcelWeight
 {

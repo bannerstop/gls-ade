@@ -1,20 +1,20 @@
 <?php
 
-namespace Webit\GlsAde\Api\Factory;
+namespace Bannerstop\GlsAde\Api\Factory;
 
 use JMS\Serializer\Serializer;
 use JMS\Serializer\SerializerBuilder;
-use Webit\GlsAde\Api\AuthApi;
-use Webit\GlsAde\Api\ConsignmentPrepareApi;
-use Webit\GlsAde\Api\Exception\ExceptionFactory;
-use Webit\GlsAde\Api\Exception\ExceptionWrappingExecutor;
-use Webit\GlsAde\Api\MpkApi;
-use Webit\GlsAde\Api\PickupApi;
-use Webit\GlsAde\Api\PostCodeApi;
-use Webit\GlsAde\Api\ProfileApi;
-use Webit\GlsAde\Api\SenderAddressApi;
-use Webit\GlsAde\Api\ServiceApi;
-use Webit\GlsAde\Model\AdeAccount;
+use Bannerstop\GlsAde\Api\AuthApi;
+use Bannerstop\GlsAde\Api\ConsignmentPrepareApi;
+use Bannerstop\GlsAde\Api\Exception\ExceptionFactory;
+use Bannerstop\GlsAde\Api\Exception\ExceptionWrappingExecutor;
+use Bannerstop\GlsAde\Api\MpkApi;
+use Bannerstop\GlsAde\Api\PickupApi;
+use Bannerstop\GlsAde\Api\PostCodeApi;
+use Bannerstop\GlsAde\Api\ProfileApi;
+use Bannerstop\GlsAde\Api\SenderAddressApi;
+use Bannerstop\GlsAde\Api\ServiceApi;
+use Bannerstop\GlsAde\Model\AdeAccount;
 use Webit\SoapApi\Executor\SoapApiExecutorBuilder;
 use Webit\SoapApi\Hydrator\ArrayHydrator;
 use Webit\SoapApi\Hydrator\ChainHydrator;
@@ -191,16 +191,16 @@ class ApiFactory
                     $serializer,
                     new ResultTypeMap(
                         array(
-                            'adeProfile_GetIDs' => 'ArrayCollection<Webit\GlsAde\Model\Profile>',
-                            'adeProfile_Change' => 'Webit\GlsAde\Model\Profile',
-                            'adePreparingBox_GetConsign' => 'Webit\GlsAde\Model\Consignment',
-                            'adePickup_Get' => 'Webit\GlsAde\Model\Pickup',
-                            'adePickup_GetConsign' => 'Webit\GlsAde\Model\Consignment',
-                            'adePickup_ParcelNumberSearch' => 'Webit\GlsAde\Model\Consignment',
-                            'adeSendAddr_GetDictionary' => 'ArrayCollection<Webit\GlsAde\Model\SenderAddress>',
-                            'adeServices_GetAllowed' => 'Webit\GlsAde\Model\ServiceList',
-                            'adeServices_GetMaxParcelWeights' => 'Webit\GlsAde\Model\MaxParcelWeight',
-                            'adeServices_GetGuaranteed' => 'Webit\GlsAde\Model\ServiceList'
+                            'adeProfile_GetIDs' => 'ArrayCollection<Bannerstop\GlsAde\Model\Profile>',
+                            'adeProfile_Change' => 'Bannerstop\GlsAde\Model\Profile',
+                            'adePreparingBox_GetConsign' => 'Bannerstop\GlsAde\Model\Consignment',
+                            'adePickup_Get' => 'Bannerstop\GlsAde\Model\Pickup',
+                            'adePickup_GetConsign' => 'Bannerstop\GlsAde\Model\Consignment',
+                            'adePickup_ParcelNumberSearch' => 'Bannerstop\GlsAde\Model\Consignment',
+                            'adeSendAddr_GetDictionary' => 'ArrayCollection<Bannerstop\GlsAde\Model\SenderAddress>',
+                            'adeServices_GetAllowed' => 'Bannerstop\GlsAde\Model\ServiceList',
+                            'adeServices_GetMaxParcelWeights' => 'Bannerstop\GlsAde\Model\MaxParcelWeight',
+                            'adeServices_GetGuaranteed' => 'Bannerstop\GlsAde\Model\ServiceList'
                         ),
                         'ArrayCollection'
                     )

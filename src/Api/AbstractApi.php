@@ -1,6 +1,6 @@
 <?php
 
-namespace Webit\GlsAde\Api;
+namespace Bannerstop\GlsAde\Api;
 
 use Webit\SoapApi\Executor\SoapApiExecutor;
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace Webit\GlsAde\Model;
+namespace Bannerstop\GlsAde\Model;
 
 use JMS\Serializer\Annotation as JMS;
 
@@ -52,7 +52,7 @@ class Parcel {
     /**
      * Tablica z listą usług.
      *
-     * @JMS\Type("Webit\GlsAde\Model\ServicesBool")
+     * @JMS\Type("Bannerstop\GlsAde\Model\ServicesBool")
      * @JMS\SerializedName("srv_bool")
      * @JMS\Groups({"input"})
      *

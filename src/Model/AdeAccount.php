@@ -1,6 +1,6 @@
 <?php
 
-namespace Webit\GlsAde\Model;
+namespace Bannerstop\GlsAde\Model;
 
 class AdeAccount
 {

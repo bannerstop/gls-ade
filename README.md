@@ -1,15 +1,19 @@
 # GLS ADE WebAPI Implementation
 
-The repository provides a client to communicate with GLS SOAP APIs
+Fork of [webit/gls-ade](https://github.com/dbojdo/gls-ade) with updated dependencies.
+So far we have only updated the dependencies and fixed the code to work with the new versions.
+There is still some work to be done, like restoring the tests and implementing strict typing.
+
+The repository provides a client to communicate with GLS SOAP APIs.
 
 ## Installation
 
-Add the **webit/gls-ade** into **composer.json**
+Add the **bannerstop/gls-ade** into **composer.json**
 
 ```json
 {
     "require": {
-        "webit/gls-ade": "^2.0.0"
+        "bannerstop/gls-ade": "^3.0.0"
     }
 }
 ```
@@ -17,7 +21,7 @@ Add the **webit/gls-ade** into **composer.json**
 ## Usage
 
 ```php
-use Webit\GlsAde\Model\AdeAccount;
+use \Webit\GlsAde\Model\AdeAccount;
 use \Webit\GlsAde\Api\Factory\ApiFactory;
 
 $adeAccount = new AdeAccount('your-login', 'your-password', 'is-test-env' ? true : false);
@@ -69,11 +73,7 @@ php sender.php
 php services.php
 ``
 
-## Running tests
+## TODO
 
-To run all tests (including real API calls tests), copy **phpunit.xml.dist** file to **phpunit.xml** and replace username / password.
-If you don't do this, API tests will be skipped.
-
-```sh
-./vendor/bin/phpunit
-```
+- [ ] Implement strict typing
+- [ ] Restore tests

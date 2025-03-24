@@ -1,9 +1,9 @@
 <?php
 
-namespace Webit\GlsAde\Api;
+namespace Bannerstop\GlsAde\Api;
 
 use Doctrine\Common\Collections\ArrayCollection;
-use Webit\GlsAde\Model\Profile;
+use Bannerstop\GlsAde\Model\Profile;
 
 /**
  * Class ProfileApi
@@ -38,7 +38,7 @@ class ProfileApi extends AbstractSessionAwareApi
      */
     public function changeProfile($profileId)
     {
-        $profile = $this->request('adeProfile_Change', array('id' => $profileId), 'Webit\GlsAde\Model\Profile');
+        $profile = $this->request('adeProfile_Change', array('id' => $profileId), 'Bannerstop\GlsAde\Model\Profile');
 
         return $profile;
     }

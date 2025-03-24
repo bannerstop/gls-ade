@@ -1,8 +1,8 @@
 <?php
 
-namespace Webit\GlsAde\Api;
+namespace Bannerstop\GlsAde\Api;
 
-use Webit\GlsAde\Model\AdeAccount;
+use Bannerstop\GlsAde\Model\AdeAccount;
 use Webit\SoapApi\Executor\SoapApiExecutor;
 
 /**

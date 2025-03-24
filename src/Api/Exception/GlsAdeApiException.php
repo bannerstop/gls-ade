@@ -1,6 +1,6 @@
 <?php
 
-namespace Webit\GlsAde\Api\Exception;
+namespace Bannerstop\GlsAde\Api\Exception;
 
 /**
  * Class Error

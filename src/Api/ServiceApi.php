@@ -1,10 +1,10 @@
 <?php
 
-namespace Webit\GlsAde\Api;
+namespace Bannerstop\GlsAde\Api;
 
 use Doctrine\Common\Collections\ArrayCollection;
-use Webit\GlsAde\Model\MaxParcelWeight;
-use Webit\GlsAde\Model\ServiceList;
+use Bannerstop\GlsAde\Model\MaxParcelWeight;
+use Bannerstop\GlsAde\Model\ServiceList;
 
 /**
  * Class ServiceApi

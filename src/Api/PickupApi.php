@@ -1,12 +1,12 @@
 <?php
 
-namespace Webit\GlsAde\Api;
+namespace Bannerstop\GlsAde\Api;
 
 use Doctrine\Common\Collections\ArrayCollection;
-use Webit\GlsAde\Model\Consignment;
-use Webit\GlsAde\Model\ConsignmentLabelModes;
-use Webit\GlsAde\Model\Pickup;
-use Webit\GlsAde\Model\PickupReceiptModes;
+use Bannerstop\GlsAde\Model\Consignment;
+use Bannerstop\GlsAde\Model\ConsignmentLabelModes;
+use Bannerstop\GlsAde\Model\Pickup;
+use Bannerstop\GlsAde\Model\PickupReceiptModes;
 
 /**
  * Class PickupApi

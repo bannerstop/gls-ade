@@ -1,9 +1,9 @@
 <?php
 
-namespace Webit\GlsAde\Api;
+namespace Bannerstop\GlsAde\Api;
 
 use Doctrine\Common\Collections\ArrayCollection;
-use Webit\GlsAde\Model\AdeAccount;
+use Bannerstop\GlsAde\Model\AdeAccount;
 
 class AuthApi extends AbstractApi
 {

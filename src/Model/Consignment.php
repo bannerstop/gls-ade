@@ -1,6 +1,6 @@
 <?php
 
-namespace Webit\GlsAde\Model;
+namespace Bannerstop\GlsAde\Model;
 
 use Doctrine\Common\Collections\ArrayCollection;
 use JMS\Serializer\Annotation as JMS;
@@ -215,7 +215,7 @@ class Consignment {
      * Adres nadawcy (patrz opis metody adeSendAddr_GetStatus)
      * (Opcja)
      *
-     * @JMS\Type("Webit\GlsAde\Model\SenderAddress")
+     * @JMS\Type("Bannerstop\GlsAde\Model\SenderAddress")
      * @JMS\SerializedName("sendaddr")
      * @JMS\Groups({"input"})
      *
@@ -227,7 +227,7 @@ class Consignment {
      * Tablica z listą usług
      * (Opcja)
      *
-     * @JMS\Type("Webit\GlsAde\Model\ServicesBool")
+     * @JMS\Type("Bannerstop\GlsAde\Model\ServicesBool")
      * @JMS\SerializedName("srv_bool")
      * @JMS\Groups({"input"})
      *
@@ -252,7 +252,7 @@ class Consignment {
      * (Opcja)
      *
      *
-     * @JMS\Type("Webit\GlsAde\Model\ServiceDaw")
+     * @JMS\Type("Bannerstop\GlsAde\Model\ServiceDaw")
      * @JMS\SerializedName("srv_daw")
      * @JMS\Groups({"input"})
      *
@@ -265,7 +265,7 @@ class Consignment {
      * (Opcja)
      *
      *
-     * @JMS\Type("Webit\GlsAde\Model\ServiceIdent")
+     * @JMS\Type("Bannerstop\GlsAde\Model\ServiceIdent")
      * @JMS\SerializedName("srv_ident")
      * @JMS\Groups({"input"})
      *
@@ -277,7 +277,7 @@ class Consignment {
      * Tablica z danymi usług PR, PS, EXC i SRS
      * (Opcja)
      *
-     * @JMS\Type("Webit\GlsAde\Model\ServicePpe")
+     * @JMS\Type("Bannerstop\GlsAde\Model\ServicePpe")
      * @JMS\SerializedName("srv_ppe")
      * @JMS\Groups({"input"})
      *
@@ -291,7 +291,7 @@ class Consignment {
      * Opcja
      *
      *
-     * @JMS\Type("ArrayCollection<Webit\GlsAde\Model\Parcel>")
+     * @JMS\Type("ArrayCollection<Bannerstop\GlsAde\Model\Parcel>")
      * @JMS\SerializedName("parcels")
      * @JMS\Groups({"input"})
      *

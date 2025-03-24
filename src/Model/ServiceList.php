@@ -1,12 +1,12 @@
 <?php
 
-namespace Webit\GlsAde\Model;
+namespace Bannerstop\GlsAde\Model;
 
 use JMS\Serializer\Annotation as JMS;
 
 /**
  * Class ServiceList
- * @package Webit\GlsAde\Model
+ * @package Bannerstop\GlsAde\Model
  */
 class ServiceList
 {
@@ -19,7 +19,7 @@ class ServiceList
     private $servicesAde;
 
     /**
-     * @JMS\Type("Webit\GlsAde\Model\ServicesBool")
+     * @JMS\Type("Bannerstop\GlsAde\Model\ServicesBool")
      * @JMS\SerializedName("srv_bool")
      *
      * @var ServicesBool

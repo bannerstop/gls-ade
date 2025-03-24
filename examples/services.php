@@ -1,5 +1,5 @@
 <?php
-/** @var \Webit\GlsAde\Api\Factory\ApiFactory $apiFactory */
+/** @var \Bannerstop\GlsAde\Api\Factory\ApiFactory $apiFactory */
 $apiFactory = require 'bootstrap.php';
 
 /** @var array $config */

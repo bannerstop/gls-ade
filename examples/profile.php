@@ -1,5 +1,5 @@
 <?php
-/** @var \Webit\GlsAde\Api\Factory\ApiFactory $apiFactory */
+/** @var \Bannerstop\GlsAde\Api\Factory\ApiFactory $apiFactory */
 $apiFactory = require 'bootstrap.php';
 
 /** @var array $config */
@@ -8,7 +8,7 @@ $profileApi = $apiFactory->createProfileApi($account);
 $profiles = $profileApi->getProfiles();
 
 echo "Profiles:\n";
-/** @var \Webit\GlsAde\Model\Profile $profile */
+/** @var \Bannerstop\GlsAde\Model\Profile $profile */
 foreach ($profiles as $profile) {
     echo sprintf("%d: %s\n", $profile->getId(), $profile->getDescription());
 }

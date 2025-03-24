@@ -1,6 +1,6 @@
 <?php
 
-namespace Webit\GlsAde\Api;
+namespace Bannerstop\GlsAde\Api;
 
 /**
  * Interface SessionAwareApiInterface
